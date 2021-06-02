@@ -3,8 +3,8 @@ import os
 import requests
 import time
 
-USER = 'woodworkmaniacs'
-PASS = '2s8a9cuz'
+USER = ''
+PASS = ''
 
 response = requests.get('https://zenquotes.io/api/random')
 data = response.json()
